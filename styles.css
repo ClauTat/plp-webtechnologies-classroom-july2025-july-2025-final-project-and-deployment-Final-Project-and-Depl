@@ -28,12 +28,12 @@ body {
   margin-left: 10px;
   font-size: 20px;
   font-weight: bold;
-  color: white;
+  color: rgb(255, 255, 255);
   transition: color 0.3s;
 }
 
 .brand:hover .logo-text {
-  color: #ff9800;
+  color: #bbff00;
 }
 
 /* Navigation links */
@@ -53,7 +53,7 @@ body {
 }
 
 .nav-links a:hover {
-  color: #ff9800;
+  color: #00ffd9;
 }
 
 /* Hamburger menu */
@@ -71,7 +71,7 @@ body {
   .nav-links {
     display: none;
     flex-direction: column;
-    background: #333;
+    background:white#333333;
     position: absolute;
     top: 60px;
     right: 20px;
